@@ -3,5 +3,6 @@ services:
     name: bot-scalping
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot.py"
+    autoDeploy: true
